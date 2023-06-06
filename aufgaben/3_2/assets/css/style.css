@@ -1,0 +1,20 @@
+/* 
+use flex-wrap for galery
+use margin: auto for last 2 menu points
+*/
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+:root {
+    --background-color: #D9E8E5;
+    --grey-text: rgba(0,0,0,.8)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
