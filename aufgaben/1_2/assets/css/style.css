@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.419);
+    padding: 1rem 2rem;
+    align-items: baseline;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+nav {
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
