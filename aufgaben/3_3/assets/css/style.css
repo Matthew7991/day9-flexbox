@@ -16,6 +16,9 @@ div {
     width: 25%;
     transition: all 300ms ease-in-out;
     flex: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 div:hover {
